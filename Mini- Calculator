@@ -1,0 +1,18 @@
+#include<stdio.h>
+
+
+int main() 
+{
+   int n=10,m,s,p;
+   float d,b=15;
+   scanf("%d,%f",&n,&b);
+   s=n+b;
+   m=n-b;
+   p=n*b;
+   d=n/b;
+   
+   printf("%d\n%d\n%d\n%.2f",s,m,p,d);
+   return 0;
+    
+    
+}
